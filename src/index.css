@@ -1,1 +1,14 @@
+/* =========== GOOGLE  FONTS =========== */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/* ========== VARIABLES ========== */
+:root{
+  --header-height: 3.5rem;
+  /* ========== COLORS ============ */
+  --section-title-first-color: #000;
+  --section-title-second-color: #FF5C00;
+  /* OTHER COLORS */
+  --button-bg-color: #30A330;
+  --hero-bg-15: #F37731;
+  --hero-bg-78: #FDCC26;
+}
