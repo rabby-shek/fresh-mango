@@ -1,14 +1,35 @@
 /* =========== GOOGLE  FONTS =========== */
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 /* ========== VARIABLES ========== */
-:root{
+:root {
   --header-height: 3.5rem;
   /* ========== COLORS ============ */
   --section-title-first-color: #000;
-  --section-title-second-color: #FF5C00;
+  --section-title-second-color: #ff5c00;
   /* OTHER COLORS */
-  --button-bg-color: #30A330;
-  --hero-bg-15: #F37731;
-  --hero-bg-78: #FDCC26;
+  --button-bg-color: #30a330;
+  --hero-bg-15: #f37731;
+  --hero-bg-78: #fdcc26;
+}
+
+/* RESET THE CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+/* ========== RE-USABLE STYLES ========== */
+.container{
+  max-width: 1150px;
+}
+.section-padding{
+  padding: 0 2rem;
 }
