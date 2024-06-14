@@ -14,7 +14,7 @@ const News = () => {
         <span className="title-part-1">About Us</span>{" "}
         <span className="title-part-2">Company</span>
       </div>
-      <div className="news-sub-title drop-shadow" >
+      <div className="news-sub-title drop-shadow">
         Latest <span className="news-sub-title-part-1">Updates</span>{" "}
         <span className="news-sub-title-part-2">&</span>{" "}
         <span className="news-sub-title-part-3">News</span>
@@ -40,7 +40,7 @@ const News = () => {
           </div>
         </div>
         <div>
-          <div  data-aos="flip-left">
+          <div data-aos="flip-left">
             <img src={NewsIMG2} alt="news-img-2" />
             <div className="card-body">
               <div className="news-user-date">
@@ -57,7 +57,7 @@ const News = () => {
             </div>
           </div>
           <div>
-            <div  data-aos="flip-up">
+            <div data-aos="flip-up">
               <img src={NewsIMG3} alt="news-img-3" />
               <div className="card-body">
                 <div className="news-user-date-1">

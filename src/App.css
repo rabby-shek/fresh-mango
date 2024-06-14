@@ -54,6 +54,9 @@
 .nav-list .nav-link:hover {
   color: #47aa5b;
 }
+.nav-list .nav-link.active{
+  color: #47aa5b;
+}
 .header-button-container {
   width: 20%;
   display: grid;
