@@ -130,6 +130,16 @@
   border-radius: 1.2rem;
   cursor: pointer;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+}
+.order-now-icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #FEAC01;
 }
 .hero-service {
   margin-top: 1.5rem;
