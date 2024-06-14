@@ -235,3 +235,31 @@
     left: 0;
   }
 }
+/* for small devices */
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 1.5rem;
+    height: 70px;
+  }
+  .hero-text {
+    font-size: 30px;
+    padding: 0.5rem;
+  }
+  .sub-hero-text {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+  .hero-order-btn {
+    font-size: 18px;
+  }
+  .hero-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .hero-right-img {
+    display: none;
+  }
+}
