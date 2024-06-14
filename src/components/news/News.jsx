@@ -8,13 +8,13 @@ import { FaUser } from "react-icons/fa";
 import { CiCalendarDate } from "react-icons/ci";
 const News = () => {
   return (
-    <section className="news-container section-padding">
+    <section className="news-container section-padding" id="blog">
       <div className="news-section-title drop-shadow" data-aos="fade-up">
         <img src={TitleLogo} alt="title-logo" className="title-logo" />
         <span className="title-part-1">About Us</span>{" "}
         <span className="title-part-2">Company</span>
       </div>
-      <div className="news-sub-title drop-shadow">
+      <div className="news-sub-title drop-shadow" >
         Latest <span className="news-sub-title-part-1">Updates</span>{" "}
         <span className="news-sub-title-part-2">&</span>{" "}
         <span className="news-sub-title-part-3">News</span>

@@ -8,6 +8,10 @@ const Header = () => {
   const handleNav = () => {
     setShowNav(!showNav);
   };
+  const handleClick = () =>{
+    setShowNav(false);
+  }
+
   return (
     <>
       <header className="header">
@@ -46,7 +50,7 @@ const Header = () => {
             {navData.map((item) => {
               return (
                 <li key={item.id} className="nav-element">
-                  <a href={item.path} className="nav-link">
+                  <a href={item.path} className="nav-link" onClick={handleClick}>
                     {item.title}
                   </a>
                 </li>
