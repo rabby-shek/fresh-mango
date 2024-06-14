@@ -5,7 +5,7 @@ import AboutTick from '../../assets/images/about-tick.png';
 import { MdKeyboardArrowRight } from "react-icons/md";
 const AboutSection = () => {
   return (
-    <section className='about-section-container section-padding'>
+    <section className='about-section-container section-padding' id='about'>
       <div className='about-section-title drop-shadow' data-aos="fade-up">
         <img src={TitleLogo} alt="title-logo" className='title-logo' /><span className='title-part-1'>About Us</span> <span className='title-part-2'>Company</span>
       </div>
