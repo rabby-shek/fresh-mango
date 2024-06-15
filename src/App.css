@@ -657,6 +657,12 @@
     font-size: 18px;
     transition: color 0.4s;
   }
+  .mobile-nav .mobile-nav-list .nav-element .nav-link:hover{
+    color: #30a330;
+  }
+  .mobile-nav .mobile-nav-list .nav-element .nav-link.active{
+    color: #30a330;
+  }
   .close-icon {
     font-size: 20px;
     position: absolute;
