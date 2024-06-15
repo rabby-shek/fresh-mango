@@ -87,7 +87,6 @@
   background-repeat: no-repeat;
 }
 .hero-section-container {
-  /* background: linear-gradient(135deg, var(--hero-bg-15), var(--hero-bg-78)); */
   height: 750px;
   width: 100%;
   display: flex;
