@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fresh-mango/static/css/main.3e5ace12.css",
-    "main.js": "/fresh-mango/static/js/main.07705571.js",
+    "main.css": "/fresh-mango/static/css/main.54b58b31.css",
+    "main.js": "/fresh-mango/static/js/main.4a7fea3b.js",
     "static/media/hero-bg.png": "/fresh-mango/static/media/hero-bg.0d15a429b4511cf61f31.png",
     "static/media/news-img-1.png": "/fresh-mango/static/media/news-img-1.1c292e672d30dea5bd5b.png",
     "static/media/choose-us.png": "/fresh-mango/static/media/choose-us.6827bfb5b20c751e8b81.png",
@@ -18,12 +18,15 @@
     "static/media/image 344.png": "/fresh-mango/static/media/image 344.7cfb47e7546cb93c72c6.png",
     "static/media/news-img-4.png": "/fresh-mango/static/media/news-img-4.9037ac97941c53e438ba.png",
     "static/media/news-img-3.png": "/fresh-mango/static/media/news-img-3.48a5519889fe86a9cb70.png",
+    "static/media/team-member-3.png": "/fresh-mango/static/media/team-member-3.78c3fdc3810470e87f23.png",
+    "static/media/team-member-1.png": "/fresh-mango/static/media/team-member-1.75c833c0947a64b12193.png",
+    "static/media/team-member-2.png": "/fresh-mango/static/media/team-member-2.3fd44192981666c8f9ae.png",
     "index.html": "/fresh-mango/index.html",
-    "main.3e5ace12.css.map": "/fresh-mango/static/css/main.3e5ace12.css.map",
-    "main.07705571.js.map": "/fresh-mango/static/js/main.07705571.js.map"
+    "main.54b58b31.css.map": "/fresh-mango/static/css/main.54b58b31.css.map",
+    "main.4a7fea3b.js.map": "/fresh-mango/static/js/main.4a7fea3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e5ace12.css",
-    "static/js/main.07705571.js"
+    "static/css/main.54b58b31.css",
+    "static/js/main.4a7fea3b.js"
   ]
 }
