@@ -3,6 +3,7 @@ import CustomerImg1 from '../../assets/images/customer-img-1.png';
 import CustomerImg2 from '../../assets/images/customer-img-2.png';
 import CustomerImg3 from '../../assets/images/customer-img-3.png';
 import CustomerImg4 from '../../assets/images/customer-img-4.png';
+import CountUp from 'react-countup';
 const Customers = () => {
   return (
     <section className='customers-section-container section-padding'>
@@ -25,7 +26,7 @@ const Customers = () => {
                 <li>
                     <img src={CustomerImg3} alt="img" />
                     <div className='customer-info'>
-                        <div>2365+</div>
+                        <div><CountUp end={2365} />+</div>
                         <p>Satisfied Customers</p>
                     </div>
                 </li>
