@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
 import './App.css';
-import { AboutSection, Header, HeroSection, News } from './components';
+import { AboutSection, ChooseUs, Header, HeroSection, News } from './components';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <News />
+      <ChooseUs />
     </>
   );
 }

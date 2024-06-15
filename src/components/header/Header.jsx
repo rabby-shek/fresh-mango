@@ -55,9 +55,11 @@ const Header = () => {
               return (
                 <li key={item.id} className="nav-element">
                   <a
-                    href={`#${item.path.replace('#', '')}`}
-                    className={`nav-link ${activeId === item.path.replace('#', '') ? "active" : ""}`}
-                    onClick={() => handleClick(item.path.replace('#', ''))}
+                    href={`#${item.path.replace("#", "")}`}
+                    className={`nav-link ${
+                      activeId === item.path.replace("#", "") ? "active" : ""
+                    }`}
+                    onClick={() => handleClick(item.path.replace("#", ""))}
                   >
                     {item.title}
                   </a>
@@ -81,9 +83,11 @@ const Header = () => {
               return (
                 <li key={item.id} className="nav-element">
                   <a
-                    href={`#${item.path.replace('#', '')}`}
-                    className={`nav-link ${activeId === item.path.replace('#', '') ? "active" : ""}`}
-                    onClick={() => handleClick(item.path.replace('#', ''))}
+                    href={`#${item.path.replace("#", "")}`}
+                    className={`nav-link ${
+                      activeId === item.path.replace("#", "") ? "active" : ""
+                    }`}
+                    onClick={() => handleClick(item.path.replace("#", ""))}
                   >
                     {item.title}
                   </a>

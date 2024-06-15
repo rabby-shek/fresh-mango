@@ -7,7 +7,7 @@ import delivery from "../../assets/images/hero-delivery.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const HeroSection = () => {
   return (
-    <div className="hero-section-wrapper" id="home">
+    <section className="hero-section-wrapper" id="home">
       <img
         src={Leaf}
         alt="leaf"
@@ -60,7 +60,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
