@@ -20,7 +20,7 @@ const TeamMembers = () => {
       <div className="team-member-list">
         <div className="team-member">
             <img src={TeamMember1} alt="" />
-            <div className="member-data">
+            <div className="member-data" data-aos="flip-up">
                 <div className="member-title">Senior Farmer</div>
                 <div className="member-name">Alhando robart</div>
                 <ul>
@@ -33,7 +33,7 @@ const TeamMembers = () => {
         </div>
         <div className="team-member">
             <img src={TeamMember2} alt="" />
-            <div className="member-data">
+            <div className="member-data" data-aos="flip-up">
                 <div className="member-title">Senior Farmer</div>
                 <div className="member-name">Alhando robart</div>
                 <ul>
@@ -46,7 +46,7 @@ const TeamMembers = () => {
         </div>
         <div className="team-member">
             <img src={TeamMember3} alt="" />
-            <div className="member-data">
+            <div className="member-data" data-aos="flip-up">
                 <div className="member-title">Senior Farmer</div>
                 <div className="member-name">Alhando robart</div>
                 <ul>
