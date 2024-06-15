@@ -5,7 +5,7 @@ const Footer = () => {
     const year = date.getFullYear();
   return (
     <footer className="footer section-padding">
-      <div className="footer-top">
+      <div className="footer-top" id="contact">
         <div className="footer-top-text drop-shadow">
           <img src={EmailImg} alt="email" />
           <p>
