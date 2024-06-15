@@ -4,8 +4,9 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
   return (
-    <footer className="footer section-padding">
-      <div className="footer-top" id="contact">
+    <section id="contact">
+        <footer className="footer section-padding">
+      <div className="footer-top">
         <div className="footer-top-text drop-shadow">
           <img src={EmailImg} alt="email" />
           <p>
@@ -23,6 +24,7 @@ const Footer = () => {
       </div>
       <div className="copy-right">Copyright © {year} MD Rabby Shek Suvo. All Rights Reserved.</div>
     </footer>
+    </section>
   );
 };
 
