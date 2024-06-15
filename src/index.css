@@ -38,9 +38,7 @@ img {
 }
 
 /* ========== RE-USABLE STYLES ========== */
-.container{
-  max-width: 1150px;
-}
+
 .section-padding{
   padding: 3rem 4rem;
 }

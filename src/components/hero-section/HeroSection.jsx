@@ -32,7 +32,11 @@ const HeroSection = () => {
         <div className="sub-hero-text">
           we collect mangoes directly from the garden & deliver them to you
         </div>
-        <button className="hero-order-btn"> <MdKeyboardArrowRight className="order-now-icon" />Order Now</button>
+        <button className="hero-order-btn">
+          {" "}
+          <MdKeyboardArrowRight className="order-now-icon" />
+          Order Now
+        </button>
         <div className="hero-service">
           <div className="pickup grid">
             <div className="pickup-img-container grid">
