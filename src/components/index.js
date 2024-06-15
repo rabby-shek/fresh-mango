@@ -6,3 +6,4 @@ export { default as ChooseUs } from './choose-us/ChooseUs';
 export { default as Customers } from './customers/Customers';
 export { default as MangoTypes } from './mango-types/MangoTypes';
 export { default as Footer } from './footer/Footer';
+export { default as TeamMembers } from './team-members/TeamMembers';
