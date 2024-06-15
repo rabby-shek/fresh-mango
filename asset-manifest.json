@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fresh-mango/static/css/main.54b58b31.css",
+    "main.css": "/fresh-mango/static/css/main.fed98d23.css",
     "main.js": "/fresh-mango/static/js/main.b233e953.js",
     "static/media/hero-bg.png": "/fresh-mango/static/media/hero-bg.0d15a429b4511cf61f31.png",
     "static/media/news-img-1.png": "/fresh-mango/static/media/news-img-1.1c292e672d30dea5bd5b.png",
@@ -22,11 +22,11 @@
     "static/media/team-member-1.png": "/fresh-mango/static/media/team-member-1.75c833c0947a64b12193.png",
     "static/media/team-member-2.png": "/fresh-mango/static/media/team-member-2.3fd44192981666c8f9ae.png",
     "index.html": "/fresh-mango/index.html",
-    "main.54b58b31.css.map": "/fresh-mango/static/css/main.54b58b31.css.map",
+    "main.fed98d23.css.map": "/fresh-mango/static/css/main.fed98d23.css.map",
     "main.b233e953.js.map": "/fresh-mango/static/js/main.b233e953.js.map"
   },
   "entrypoints": [
-    "static/css/main.54b58b31.css",
+    "static/css/main.fed98d23.css",
     "static/js/main.b233e953.js"
   ]
 }
