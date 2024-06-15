@@ -4,3 +4,5 @@ export { default as AboutSection } from './about-section/AboutSection';
 export { default as News } from './news/News';
 export { default as ChooseUs } from './choose-us/ChooseUs';
 export { default as Customers } from './customers/Customers';
+export { default as MangoTypes } from './mango-types/MangoTypes';
+export { default as Footer } from './footer/Footer';

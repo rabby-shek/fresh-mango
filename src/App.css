@@ -70,6 +70,7 @@
   border: none;
   outline: none;
   border-radius: 1rem;
+  cursor: pointer;
 }
 .menu-icon {
   display: none;
@@ -468,6 +469,121 @@
 .customer-info p{
   font-size: 20px;
 }
+/* ========== MANGO TYPES ========== */
+.mangoes {
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 3rem;
+  padding: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-container button {
+  position: absolute;
+  bottom: -13px; /* Half of the button height to position half inside and half outside */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #568F67;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  width: 309px;
+  height: 42px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mango-item {
+  border-radius: 8px;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.view-more-btn-container{
+  text-align: center;
+}
+.view-more-btn{
+  background-color: #30A330;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 1.5rem;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+/* ========== Footer Styles ========= */
+.footer{
+  background-color: #002D00;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+.divider{
+  color: #30A330;
+}
+.footer-top-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.footer-top-text img{
+  width: 60px;
+  height: 60px;
+}
+.footer-top-text p{
+  font-size: 30px;
+  color: #fff;
+}
+.footer-input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+.footer-input-container input{
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.footer-input-container button{
+  background-color: #005001;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.copy-right{
+  font-size: 16px;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
 /* for medium devices */
 @media screen and (max-width: 820px) {
   .header {
@@ -564,6 +680,14 @@
   }
   .customer-info p{
     font-size: 13px;
+  }
+  .footer-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem 0;
+    row-gap: 1rem;
   }
 }
 
@@ -671,5 +795,43 @@
     flex-direction: column;
     width: 100%;
     row-gap: 2rem;
+  }
+  .footer-top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+  }
+  .footer-top-text img{
+    width: 40px;
+    height: 40px;
+  }
+  .footer-top-text p{
+    font-size: 18px;
+    color: #fff;
+  }
+  .footer-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  .footer-input-container input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .footer-input-container button{
+    background-color: #005001;
+    font-size: 16px;
+    color: #fff;
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
