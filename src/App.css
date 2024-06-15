@@ -654,8 +654,7 @@
     display: block;
   }
   .customers-data{
-    background-color: #3E7F51;
-    background-image: url('');
+    background: #3E7F51;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
