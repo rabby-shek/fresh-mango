@@ -1,9 +1,14 @@
 import React from "react";
 import TitleLogo from "../../assets/images/section-logo.png";
-import TeamMember1 from '../../assets/images/team-member-1.png';
-import TeamMember2 from '../../assets/images/team-member-2.png';
-import TeamMember3 from '../../assets/images/team-member-3.png';
-import { FaFacebookF ,FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import TeamMember1 from "../../assets/images/team-member-1.png";
+import TeamMember2 from "../../assets/images/team-member-2.png";
+import TeamMember3 from "../../assets/images/team-member-3.png";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 const TeamMembers = () => {
   return (
     <section className="section-padding">
@@ -19,43 +24,67 @@ const TeamMembers = () => {
       </div>
       <div className="team-member-list">
         <div className="team-member">
-            <img src={TeamMember1} alt="" />
-            <div className="member-data" data-aos="flip-up">
-                <div className="member-title">Senior Farmer</div>
-                <div className="member-name">Alhando robart</div>
-                <ul>
-                    <li><FaFacebookF /></li>
-                    <li><FaLinkedinIn  /></li>
-                    <li><FaTwitter  /></li>
-                    <li><FaInstagram  /></li>
-                </ul>
-            </div>
+          <img src={TeamMember1} alt="" />
+          <div className="member-data" data-aos="flip-up">
+            <div className="member-title">Senior Farmer</div>
+            <div className="member-name">Alhando robart</div>
+            <ul>
+              <li>
+                <FaFacebookF />
+              </li>
+              <li>
+                <FaLinkedinIn />
+              </li>
+              <li>
+                <FaTwitter />
+              </li>
+              <li>
+                <FaInstagram />
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="team-member">
-            <img src={TeamMember2} alt="" />
-            <div className="member-data" data-aos="flip-up">
-                <div className="member-title">Senior Farmer</div>
-                <div className="member-name">Alhando robart</div>
-                <ul>
-                    <li><FaFacebookF /></li>
-                    <li><FaLinkedinIn  /></li>
-                    <li><FaTwitter  /></li>
-                    <li><FaInstagram  /></li>
-                </ul>
-            </div>
+          <img src={TeamMember2} alt="" />
+          <div className="member-data" data-aos="flip-up">
+            <div className="member-title">Senior Farmer</div>
+            <div className="member-name">Alhando robart</div>
+            <ul>
+              <li>
+                <FaFacebookF />
+              </li>
+              <li>
+                <FaLinkedinIn />
+              </li>
+              <li>
+                <FaTwitter />
+              </li>
+              <li>
+                <FaInstagram />
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="team-member">
-            <img src={TeamMember3} alt="" />
-            <div className="member-data" data-aos="flip-up">
-                <div className="member-title">Senior Farmer</div>
-                <div className="member-name">Alhando robart</div>
-                <ul>
-                    <li><FaFacebookF /></li>
-                    <li><FaLinkedinIn  /></li>
-                    <li><FaTwitter  /></li>
-                    <li><FaInstagram  /></li>
-                </ul>
-            </div>
+          <img src={TeamMember3} alt="" />
+          <div className="member-data" data-aos="flip-up">
+            <div className="member-title">Senior Farmer</div>
+            <div className="member-name">Alhando robart</div>
+            <ul>
+              <li>
+                <FaFacebookF />
+              </li>
+              <li>
+                <FaLinkedinIn />
+              </li>
+              <li>
+                <FaTwitter />
+              </li>
+              <li>
+                <FaInstagram />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
